@@ -61,6 +61,33 @@ section div, footer div, header div {
     padding: 2em;
 }
 
+ul.menu {
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+ul.menu li:first-child {
+    border-left: 0;
+    margin: 0;
+    padding-left: 0;
+}
+
+ul.menu li {
+    margin-left: 1.5em;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+    line-height: 1;
+    padding: 0 0 0 1.5em;
+    display: inline-block;
+    border-left: solid 1px var(--light-color);
+}
+
+li {
+    color: var(--light-color);
+    font-family: "Graduate0", sans-serif;
+}
+
 .wrapper-border {
     margin-top: 10em;
     padding: 3px 0;
