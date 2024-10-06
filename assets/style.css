@@ -1,13 +1,22 @@
 body {
-    background-color: grey;
+    background-color: rgb(49, 49, 49);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
 }
 
 h1, p, strong, li {
-    color: wheat;
+    color: rgb(151, 151, 151);
+}
+
+header {
+    padding: 5%;
+    border-radius: 25px;
+    background-color: rgb(63, 63, 63);
 }
 
 section, footer {
-    margin-top: 20%;
-    background-color: darkslategrey;
+    padding: 5%;
+    border-radius: 25px;
+    margin-top: 10%;
+    background-color: rgb(63, 63, 63);
 }
