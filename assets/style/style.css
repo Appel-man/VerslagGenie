@@ -95,6 +95,9 @@ header {
 
 section div, footer div {
     background-color:  var(--medium-dark-color);
+    background-image: url("../media/Texture.png");
+    background-repeat:repeat;
+    background-blend-mode: multiply;
     padding: 2em;
 }
 
