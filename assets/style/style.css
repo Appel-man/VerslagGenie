@@ -162,3 +162,17 @@ nav a, nav a:visited, nav a:link {
         background-position: 0% 50%;
     }
 }
+
+@media only screen and (max-width: 600px)  {
+    .small-wrapper-border {
+        left: auto;
+        transform: none;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 350px)  {
+    nav {
+        visibility: hidden;
+    }
+}
