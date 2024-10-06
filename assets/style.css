@@ -15,14 +15,28 @@ body {
 }
 
 nav {
+    top: 50%;
+    transform: translateY(-50%);
     right: 10%;
+    position: absolute;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 h1 {
-    background: linear-gradient(90deg, var(--medium-dark-color), var(--light-color), var(--dark-color));
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    font-family: "Martian Mono", monospace;
+    position: relative;
+    font-weight: 700;
+    margin-left: 5%;
+    background: linear-gradient(90deg, var(--medium-light-color), var(--light-color), var(--dark-color));
     background-size: 400% 400%;
     animation: glow 3s ease infinite;
-    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2, p, strong, a {
@@ -44,8 +58,8 @@ header {
 
 section div, footer div, header div {
     background-color:  var(--medium-dark-color);
+    padding: 2em;
 }
-
 
 .wrapper-border {
     margin-top: 10em;
