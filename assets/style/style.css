@@ -67,6 +67,10 @@ h2, p, strong, a {
     color: var(--light-color);
 }
 
+.accept-pre {
+    white-space: pre-wrap;
+}
+
 a {
     z-index: 10;
     font-family: "Graduate0", sans-serif;
