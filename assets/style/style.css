@@ -9,6 +9,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     font-family: "Graduate0", sans-serif;
+    background-image: url("../media/Texture.png");
+    background-repeat:repeat;
+    background-blend-mode: multiply;
 }
 
 * {
@@ -37,7 +40,7 @@ h1, h2 {
     user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    background: linear-gradient(90deg, var(--medium-light-color), var(--light-color), var(--dark-color));
+    background: linear-gradient(90deg, var(--medium-dark-color), var(--light-color), var(--dark-color));
     background-size: 400% 400%;
     animation: glow 3s ease infinite;
     -webkit-background-clip: text;
@@ -95,9 +98,6 @@ header {
 
 section div, footer div {
     background-color:  var(--medium-dark-color);
-    background-image: url("../media/Texture.png");
-    background-repeat:repeat;
-    background-blend-mode: multiply;
     padding: 2em;
 }
 
